@@ -8,7 +8,7 @@ A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an L
 
 1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).)
 2. Add the files other than `main.lua` to your project.
-3. Launch the VSCode extension by running the command "
+3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints.
 
 # Example
 
