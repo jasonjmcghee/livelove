@@ -3,10 +3,7 @@ import {
     ExtensionContext, 
     window, 
     Range, 
-    Position, 
     TextEditor, 
-    WebviewPanel,
-    ViewColumn,
     Selection,
     workspace,
     commands,
@@ -130,11 +127,13 @@ export async function activate(context: ExtensionContext) {
                 return;
             }
 
+            const isMoreThanOneCharacter = (currentSelection?.text?.length ?? 0) > 0;
+
             // Only handle clicks (when selection doesn't change)
             if (event.selections.length === 1 && 
-                currentSelection && 
+                currentSelection &&
+                isMoreThanOneCharacter &&
                 event.selections[0].isEmpty) {
-                const text = editor.document.getText(selection).trim();
                 if (currentSelection.range.contains(event.selections[0].active)) {
                     const editor = event.textEditor;
                     

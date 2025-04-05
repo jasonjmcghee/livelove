@@ -1,5 +1,7 @@
 -- Inspired by `lurker`
 
+local live_vars = true
+
 local function lua_encode(...)
     -- Forward declaration for mutual recursion
     local encode_value
@@ -244,7 +246,6 @@ local livelove = { _version = "1.0.0" }
 livelove.buffer = ""
 livelove.global_mode = false
 
-local live_vars = true
 local instrumenter = require("instrumenter")
 local json = require("json")
 
@@ -749,7 +750,10 @@ function livelove.hotswapinstant(f, content)
 	end
 
 	local modname = livelove.modname(f)
-	local instrumented_content = instrumenter.instrument_code(f, content)
+	local instrumented_content = content
+	if live_vars then
+		instrumented_content = instrumenter.instrument_code(f, content)
+	end
 	local chunk, err = load(instrumented_content, modname)
 	if not chunk then
 		livelove.print("Failed to swap '{1}' : {2}", { f, err })
