@@ -7,8 +7,14 @@ A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an L
 # Getting Started
 
 1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).)
-2. Add the files other than `main.lua` to your project.
-3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints.
+2. Add the files other than `main.lua` to your project (`color.lua` is optional).
+3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints. Edit your file and see the changes instantly!
+
+Note: if you'd rather not see inlay hints, you can just disable `live_vars` at the top of `livelove.lua`.
+
+![image](https://github.com/user-attachments/assets/3553a8ba-2bc7-4140-bf1f-1178079a70f2)
+
+There are a few additional features included. You can select a hex color string or a number, then click once on it. It'll pop up a slider / color palette (click to modify) you can use to edit the values using a good UX, live.
 
 # Example
 
