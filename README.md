@@ -1,6 +1,6 @@
 # livelove
 
-_This is an old project that I've open sourcing at the request of a few folks - please feel free to file any issues you have._
+_This is an old project that I'm open sourcing at the request of a few folks - please feel free to file any issues you have._
 
 A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
 
