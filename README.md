@@ -26,6 +26,7 @@ But, here's a template:
 if not IMAIN then
     livelove = require("livelove")
     -- Add state that you want to persist across hot reload here (probably most everything)
+    -- You'll want something like this in every file.
     IMAIN = true
 end
 
