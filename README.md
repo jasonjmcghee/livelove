@@ -31,7 +31,7 @@ if not IMAIN then
 end
 
 local function hotreload()
-    -- whatever you want here (fires any time there's a hot reload)
+    -- (optional) whatever you want here (fires any time there's a hot reload)
 end
 
 livelove.postswap = function(f)
