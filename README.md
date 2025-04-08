@@ -4,13 +4,15 @@ _This is an old project that I'm open sourcing at the request of a few folks - p
 
 A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
 
+"Live coding" here means, when you change the code, you'll see the changes reflected instantly / as you type them. If there are errors, it'll use the last valid code.
+
+"Live feedback" here means, you'll see every value of variables you created, updated live, next to any reference to it (as an inlay hint). Any variable prefixed with `_` like `_foo` will not be tracked. You can disable this entirely with `live_vars = false` at the top of `livelove.lua`.
+
 # Getting Started
 
 1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).)
 2. Add the `.lua` files other than `main.lua` to your project (`color.lua` is optional).
 3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints. Edit your file and see the changes instantly (glsl shaders work too)!
-
-Note: if you'd rather not see inlay hints, you can just disable `live_vars` at the top of `livelove.lua`.
 
 ![image](https://github.com/user-attachments/assets/3553a8ba-2bc7-4140-bf1f-1178079a70f2)
 
