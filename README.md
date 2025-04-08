@@ -22,7 +22,7 @@ There are a few additional features included. You can select a hex color string 
 
 # Neovim Demo
 
-https://github.com/user-attachments/assets/59778b57-1730-464d-92ed-ebee6a61f586
+https://github.com/user-attachments/assets/ce749695-4abf-48fd-ba25-3c1076ce9bb7
 
 # Example
 
