@@ -20,6 +20,10 @@ _ Note: I also added a neovim plugin, if you'd prefer neovim over vs code. It do
 
 There are a few additional features included. You can select a hex color string or a number, then click once on it. It'll pop up a slider / color palette (click to modify) you can use to edit the values using a good UX, live.
 
+# Neovim Demo
+
+https://github.com/user-attachments/assets/59778b57-1730-464d-92ed-ebee6a61f586
+
 # Example
 
 I've included [`main.lua`](./main.lua) to provide an example of how to use it.
