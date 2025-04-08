@@ -2,9 +2,9 @@
 
 _Please feel free to file any issues you have._
 
-A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
+A LÖVE 2D [VSCode extension](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
 
-_ Note: I also added a neovim plugin, if you'd prefer neovim over vs code. It does not support the live number slider and live color palette features, but does support live coding and live feedback._
+_Note: I also added [a neovim plugin](./livelove-nvim), if you'd prefer neovim over vs code. It does not support the live number slider and live color palette features, but does support live coding and live feedback._
 
 "Live coding" here means, when you change the code, you'll see the changes reflected instantly / as you type them. If there are errors, it'll use the last valid code.
 
