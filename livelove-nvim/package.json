@@ -1,0 +1,11 @@
+{
+  "name": "livelove-nvim",
+  "version": "0.0.1",
+  "description": "Neovim plugin for live LOVE2D coding",
+  "repository": "https://github.com/jasonjmcghee/livelove",
+  "author": "Jason McGhee",
+  "scripts": {
+    "build-server": "cd ../livelove-lsp && node build-server.js && cd - && cp ../livelove-lsp/bundled/server.js . && echo 'Updated server.js!'",
+    "install": "npm run build-server &> /dev/null && mkdir -p ~/.config/nvim/lua/plugins/livelove-nvim/ && cp server.js livelove.lua ~/.config/nvim/lua/plugins/livelove-nvim/ && echo 'livelove-nvim installed!'"
+  }
+}

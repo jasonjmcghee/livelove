@@ -1,8 +1,10 @@
 # livelove
 
-_This is an old project that I'm open sourcing at the request of a few folks - please feel free to file any issues you have._
+_Please feel free to file any issues you have._
 
 A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
+
+_ Note: I also added a neovim plugin, if you'd prefer neovim over vs code. It does not support the live number slider and live color palette features, but does support live coding and live feedback._
 
 "Live coding" here means, when you change the code, you'll see the changes reflected instantly / as you type them. If there are errors, it'll use the last valid code.
 
@@ -10,7 +12,7 @@ A LÖVE 2D VSCode extension [./livelove-lsp](./livelove-lsp) in the form of an L
 
 # Getting Started
 
-1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).)
+1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).) or install the neovim plugin (`cd` into the folder and run `npm run install`).
 2. Add the `.lua` files other than `main.lua` to your project (`color.lua` is optional).
 3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints. Edit your file and see the changes instantly (glsl shaders work too)!
 

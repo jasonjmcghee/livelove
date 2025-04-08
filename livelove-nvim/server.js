@@ -1,4 +1,3 @@
-
 "use strict";
 var __create = Object.create;
 var __defProp = Object.defineProperty;
@@ -26,9 +25,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/utils/is.js
+// node_modules/vscode-languageserver/lib/common/utils/is.js
 var require_is = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/utils/is.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/utils/is.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.thenable = exports2.typedArray = exports2.stringArray = exports2.array = exports2.func = exports2.error = exports2.number = exports2.string = exports2.boolean = void 0;
@@ -71,9 +70,9 @@ var require_is = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/is.js
+// node_modules/vscode-jsonrpc/lib/common/is.js
 var require_is2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/is.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/is.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.stringArray = exports2.array = exports2.func = exports2.error = exports2.number = exports2.string = exports2.boolean = void 0;
@@ -108,9 +107,9 @@ var require_is2 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messages.js
+// node_modules/vscode-jsonrpc/lib/common/messages.js
 var require_messages = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messages.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/messages.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Message = exports2.NotificationType9 = exports2.NotificationType8 = exports2.NotificationType7 = exports2.NotificationType6 = exports2.NotificationType5 = exports2.NotificationType4 = exports2.NotificationType3 = exports2.NotificationType2 = exports2.NotificationType1 = exports2.NotificationType0 = exports2.NotificationType = exports2.RequestType9 = exports2.RequestType8 = exports2.RequestType7 = exports2.RequestType6 = exports2.RequestType5 = exports2.RequestType4 = exports2.RequestType3 = exports2.RequestType2 = exports2.RequestType1 = exports2.RequestType = exports2.RequestType0 = exports2.AbstractMessageSignature = exports2.ParameterStructures = exports2.ResponseError = exports2.ErrorCodes = void 0;
@@ -346,9 +345,9 @@ var require_messages = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/linkedMap.js
+// node_modules/vscode-jsonrpc/lib/common/linkedMap.js
 var require_linkedMap = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/linkedMap.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/linkedMap.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -716,9 +715,9 @@ var require_linkedMap = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/disposable.js
+// node_modules/vscode-jsonrpc/lib/common/disposable.js
 var require_disposable = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/disposable.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/disposable.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Disposable = void 0;
@@ -734,9 +733,9 @@ var require_disposable = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/ral.js
+// node_modules/vscode-jsonrpc/lib/common/ral.js
 var require_ral = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/ral.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/ral.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var _ral;
@@ -759,9 +758,9 @@ var require_ral = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/events.js
+// node_modules/vscode-jsonrpc/lib/common/events.js
 var require_events = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/events.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/events.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Emitter = exports2.Event = void 0;
@@ -888,9 +887,9 @@ var require_events = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/cancellation.js
+// node_modules/vscode-jsonrpc/lib/common/cancellation.js
 var require_cancellation = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/cancellation.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/cancellation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.CancellationTokenSource = exports2.CancellationToken = void 0;
@@ -977,9 +976,9 @@ var require_cancellation = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js
+// node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js
 var require_sharedArrayCancellation = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SharedArrayReceiverStrategy = exports2.SharedArraySenderStrategy = void 0;
@@ -1055,9 +1054,9 @@ var require_sharedArrayCancellation = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/semaphore.js
+// node_modules/vscode-jsonrpc/lib/common/semaphore.js
 var require_semaphore = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/semaphore.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/semaphore.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Semaphore = void 0;
@@ -1123,9 +1122,9 @@ var require_semaphore = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageReader.js
+// node_modules/vscode-jsonrpc/lib/common/messageReader.js
 var require_messageReader = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageReader.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/messageReader.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ReadableStreamMessageReader = exports2.AbstractMessageReader = exports2.MessageReader = void 0;
@@ -1312,9 +1311,9 @@ ${JSON.stringify(Object.fromEntries(headers))}`));
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageWriter.js
+// node_modules/vscode-jsonrpc/lib/common/messageWriter.js
 var require_messageWriter = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageWriter.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/messageWriter.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WriteableStreamMessageWriter = exports2.AbstractMessageWriter = exports2.MessageWriter = void 0;
@@ -1424,9 +1423,9 @@ var require_messageWriter = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageBuffer.js
+// node_modules/vscode-jsonrpc/lib/common/messageBuffer.js
 var require_messageBuffer = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/messageBuffer.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/messageBuffer.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.AbstractMessageBuffer = void 0;
@@ -1455,47 +1454,45 @@ var require_messageBuffer = __commonJS({
         let chunkIndex = 0;
         let offset = 0;
         let chunkBytesRead = 0;
-        row:
-          while (chunkIndex < this._chunks.length) {
-            const chunk = this._chunks[chunkIndex];
-            offset = 0;
-            column:
-              while (offset < chunk.length) {
-                const value = chunk[offset];
-                switch (value) {
-                  case CR:
-                    switch (state) {
-                      case 0:
-                        state = 1;
-                        break;
-                      case 2:
-                        state = 3;
-                        break;
-                      default:
-                        state = 0;
-                    }
+        row: while (chunkIndex < this._chunks.length) {
+          const chunk = this._chunks[chunkIndex];
+          offset = 0;
+          column: while (offset < chunk.length) {
+            const value = chunk[offset];
+            switch (value) {
+              case CR:
+                switch (state) {
+                  case 0:
+                    state = 1;
                     break;
-                  case LF:
-                    switch (state) {
-                      case 1:
-                        state = 2;
-                        break;
-                      case 3:
-                        state = 4;
-                        offset++;
-                        break row;
-                      default:
-                        state = 0;
-                    }
+                  case 2:
+                    state = 3;
                     break;
                   default:
                     state = 0;
                 }
-                offset++;
-              }
-            chunkBytesRead += chunk.byteLength;
-            chunkIndex++;
+                break;
+              case LF:
+                switch (state) {
+                  case 1:
+                    state = 2;
+                    break;
+                  case 3:
+                    state = 4;
+                    offset++;
+                    break row;
+                  default:
+                    state = 0;
+                }
+                break;
+              default:
+                state = 0;
+            }
+            offset++;
           }
+          chunkBytesRead += chunk.byteLength;
+          chunkIndex++;
+        }
         if (state !== 4) {
           return void 0;
         }
@@ -1574,9 +1571,9 @@ ${header}`);
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/connection.js
+// node_modules/vscode-jsonrpc/lib/common/connection.js
 var require_connection = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/connection.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/connection.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createMessageConnection = exports2.ConnectionOptions = exports2.MessageStrategy = exports2.CancellationStrategy = exports2.CancellationSenderStrategy = exports2.CancellationReceiverStrategy = exports2.RequestCancellationReceiverStrategy = exports2.IdCancellationReceiverStrategy = exports2.ConnectionStrategy = exports2.ConnectionError = exports2.ConnectionErrors = exports2.LogTraceNotification = exports2.SetTraceNotification = exports2.TraceFormat = exports2.TraceValues = exports2.Trace = exports2.NullLogger = exports2.ProgressType = exports2.ProgressToken = void 0;
@@ -2702,9 +2699,9 @@ ${JSON.stringify(message, null, 4)}`);
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/api.js
+// node_modules/vscode-jsonrpc/lib/common/api.js
 var require_api = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/common/api.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/common/api.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ProgressType = exports2.ProgressToken = exports2.createMessageConnection = exports2.NullLogger = exports2.ConnectionOptions = exports2.ConnectionStrategy = exports2.AbstractMessageBuffer = exports2.WriteableStreamMessageWriter = exports2.AbstractMessageWriter = exports2.MessageWriter = exports2.ReadableStreamMessageReader = exports2.AbstractMessageReader = exports2.MessageReader = exports2.SharedArrayReceiverStrategy = exports2.SharedArraySenderStrategy = exports2.CancellationToken = exports2.CancellationTokenSource = exports2.Emitter = exports2.Event = exports2.Disposable = exports2.LRUCache = exports2.Touch = exports2.LinkedMap = exports2.ParameterStructures = exports2.NotificationType9 = exports2.NotificationType8 = exports2.NotificationType7 = exports2.NotificationType6 = exports2.NotificationType5 = exports2.NotificationType4 = exports2.NotificationType3 = exports2.NotificationType2 = exports2.NotificationType1 = exports2.NotificationType0 = exports2.NotificationType = exports2.ErrorCodes = exports2.ResponseError = exports2.RequestType9 = exports2.RequestType8 = exports2.RequestType7 = exports2.RequestType6 = exports2.RequestType5 = exports2.RequestType4 = exports2.RequestType3 = exports2.RequestType2 = exports2.RequestType1 = exports2.RequestType0 = exports2.RequestType = exports2.Message = exports2.RAL = void 0;
@@ -2904,9 +2901,9 @@ var require_api = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/node/ril.js
+// node_modules/vscode-jsonrpc/lib/node/ril.js
 var require_ril = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/node/ril.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/node/ril.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var util_1 = require("util");
@@ -3060,13 +3057,12 @@ var require_ril = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/lib/node/main.js
+// node_modules/vscode-jsonrpc/lib/node/main.js
 var require_main = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/lib/node/main.js"(exports2) {
+  "node_modules/vscode-jsonrpc/lib/node/main.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       var desc = Object.getOwnPropertyDescriptor(m, k);
       if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
         desc = { enumerable: true, get: function() {
@@ -3075,14 +3071,11 @@ var require_main = __commonJS({
       }
       Object.defineProperty(o, k2, desc);
     } : function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       o[k2] = m[k];
     });
     var __exportStar = exports2 && exports2.__exportStar || function(m, exports3) {
-      for (var p in m)
-        if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p))
-          __createBinding(exports3, m, p);
+      for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p)) __createBinding(exports3, m, p);
     };
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createMessageConnection = exports2.createServerSocketTransport = exports2.createClientSocketTransport = exports2.createServerPipeTransport = exports2.createClientPipeTransport = exports2.generateRandomPipeName = exports2.StreamMessageWriter = exports2.StreamMessageReader = exports2.SocketMessageWriter = exports2.SocketMessageReader = exports2.PortMessageWriter = exports2.PortMessageReader = exports2.IPCMessageWriter = exports2.IPCMessageReader = void 0;
@@ -3324,22 +3317,21 @@ var require_main = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-jsonrpc/node.js
+// node_modules/vscode-jsonrpc/node.js
 var require_node = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-jsonrpc/node.js"(exports2, module2) {
+  "node_modules/vscode-jsonrpc/node.js"(exports2, module2) {
     "use strict";
     module2.exports = require_main();
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-types/lib/umd/main.js
+// node_modules/vscode-languageserver-types/lib/umd/main.js
 var require_main2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-types/lib/umd/main.js"(exports2, module2) {
+  "node_modules/vscode-languageserver-types/lib/umd/main.js"(exports2, module2) {
     (function(factory) {
       if (typeof module2 === "object" && typeof module2.exports === "object") {
         var v = factory(require, exports2);
-        if (v !== void 0)
-          module2.exports = v;
+        if (v !== void 0) module2.exports = v;
       } else if (typeof define === "function" && define.amd) {
         define(["require", "exports"], factory);
       }
@@ -3397,8 +3389,8 @@ var require_main2 = __commonJS({
         }
         Position3.is = is;
       })(Position2 || (exports3.Position = Position2 = {}));
-      var Range2;
-      (function(Range3) {
+      var Range;
+      (function(Range2) {
         function create(one, two, three, four) {
           if (Is.uinteger(one) && Is.uinteger(two) && Is.uinteger(three) && Is.uinteger(four)) {
             return { start: Position2.create(one, two), end: Position2.create(three, four) };
@@ -3408,13 +3400,13 @@ var require_main2 = __commonJS({
             throw new Error("Range#create called with invalid arguments[".concat(one, ", ").concat(two, ", ").concat(three, ", ").concat(four, "]"));
           }
         }
-        Range3.create = create;
+        Range2.create = create;
         function is(value) {
           var candidate = value;
           return Is.objectLiteral(candidate) && Position2.is(candidate.start) && Position2.is(candidate.end);
         }
-        Range3.is = is;
-      })(Range2 || (exports3.Range = Range2 = {}));
+        Range2.is = is;
+      })(Range || (exports3.Range = Range = {}));
       var Location;
       (function(Location2) {
         function create(uri, range) {
@@ -3423,7 +3415,7 @@ var require_main2 = __commonJS({
         Location2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.objectLiteral(candidate) && Range2.is(candidate.range) && (Is.string(candidate.uri) || Is.undefined(candidate.uri));
+          return Is.objectLiteral(candidate) && Range.is(candidate.range) && (Is.string(candidate.uri) || Is.undefined(candidate.uri));
         }
         Location2.is = is;
       })(Location || (exports3.Location = Location = {}));
@@ -3435,7 +3427,7 @@ var require_main2 = __commonJS({
         LocationLink2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.objectLiteral(candidate) && Range2.is(candidate.targetRange) && Is.string(candidate.targetUri) && Range2.is(candidate.targetSelectionRange) && (Range2.is(candidate.originSelectionRange) || Is.undefined(candidate.originSelectionRange));
+          return Is.objectLiteral(candidate) && Range.is(candidate.targetRange) && Is.string(candidate.targetUri) && Range.is(candidate.targetSelectionRange) && (Range.is(candidate.originSelectionRange) || Is.undefined(candidate.originSelectionRange));
         }
         LocationLink2.is = is;
       })(LocationLink || (exports3.LocationLink = LocationLink = {}));
@@ -3467,7 +3459,7 @@ var require_main2 = __commonJS({
         ColorInformation2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.objectLiteral(candidate) && Range2.is(candidate.range) && Color.is(candidate.color);
+          return Is.objectLiteral(candidate) && Range.is(candidate.range) && Color.is(candidate.color);
         }
         ColorInformation2.is = is;
       })(ColorInformation || (exports3.ColorInformation = ColorInformation = {}));
@@ -3536,13 +3528,13 @@ var require_main2 = __commonJS({
         }
         DiagnosticRelatedInformation2.is = is;
       })(DiagnosticRelatedInformation || (exports3.DiagnosticRelatedInformation = DiagnosticRelatedInformation = {}));
-      var DiagnosticSeverity2;
-      (function(DiagnosticSeverity3) {
-        DiagnosticSeverity3.Error = 1;
-        DiagnosticSeverity3.Warning = 2;
-        DiagnosticSeverity3.Information = 3;
-        DiagnosticSeverity3.Hint = 4;
-      })(DiagnosticSeverity2 || (exports3.DiagnosticSeverity = DiagnosticSeverity2 = {}));
+      var DiagnosticSeverity;
+      (function(DiagnosticSeverity2) {
+        DiagnosticSeverity2.Error = 1;
+        DiagnosticSeverity2.Warning = 2;
+        DiagnosticSeverity2.Information = 3;
+        DiagnosticSeverity2.Hint = 4;
+      })(DiagnosticSeverity || (exports3.DiagnosticSeverity = DiagnosticSeverity = {}));
       var DiagnosticTag;
       (function(DiagnosticTag2) {
         DiagnosticTag2.Unnecessary = 1;
@@ -3556,8 +3548,8 @@ var require_main2 = __commonJS({
         }
         CodeDescription2.is = is;
       })(CodeDescription || (exports3.CodeDescription = CodeDescription = {}));
-      var Diagnostic2;
-      (function(Diagnostic3) {
+      var Diagnostic;
+      (function(Diagnostic2) {
         function create(range, message, severity, code, source, relatedInformation) {
           var result = { range, message };
           if (Is.defined(severity)) {
@@ -3574,14 +3566,14 @@ var require_main2 = __commonJS({
           }
           return result;
         }
-        Diagnostic3.create = create;
+        Diagnostic2.create = create;
         function is(value) {
           var _a;
           var candidate = value;
-          return Is.defined(candidate) && Range2.is(candidate.range) && Is.string(candidate.message) && (Is.number(candidate.severity) || Is.undefined(candidate.severity)) && (Is.integer(candidate.code) || Is.string(candidate.code) || Is.undefined(candidate.code)) && (Is.undefined(candidate.codeDescription) || Is.string((_a = candidate.codeDescription) === null || _a === void 0 ? void 0 : _a.href)) && (Is.string(candidate.source) || Is.undefined(candidate.source)) && (Is.undefined(candidate.relatedInformation) || Is.typedArray(candidate.relatedInformation, DiagnosticRelatedInformation.is));
+          return Is.defined(candidate) && Range.is(candidate.range) && Is.string(candidate.message) && (Is.number(candidate.severity) || Is.undefined(candidate.severity)) && (Is.integer(candidate.code) || Is.string(candidate.code) || Is.undefined(candidate.code)) && (Is.undefined(candidate.codeDescription) || Is.string((_a = candidate.codeDescription) === null || _a === void 0 ? void 0 : _a.href)) && (Is.string(candidate.source) || Is.undefined(candidate.source)) && (Is.undefined(candidate.relatedInformation) || Is.typedArray(candidate.relatedInformation, DiagnosticRelatedInformation.is));
         }
-        Diagnostic3.is = is;
-      })(Diagnostic2 || (exports3.Diagnostic = Diagnostic2 = {}));
+        Diagnostic2.is = is;
+      })(Diagnostic || (exports3.Diagnostic = Diagnostic = {}));
       var Command;
       (function(Command2) {
         function create(title, command) {
@@ -3618,7 +3610,7 @@ var require_main2 = __commonJS({
         TextEdit2.del = del;
         function is(value) {
           var candidate = value;
-          return Is.objectLiteral(candidate) && Is.string(candidate.newText) && Range2.is(candidate.range);
+          return Is.objectLiteral(candidate) && Is.string(candidate.newText) && Range.is(candidate.range);
         }
         TextEdit2.is = is;
       })(TextEdit || (exports3.TextEdit = TextEdit = {}));
@@ -4162,7 +4154,7 @@ var require_main2 = __commonJS({
         InsertReplaceEdit2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate && Is.string(candidate.newText) && Range2.is(candidate.insert) && Range2.is(candidate.replace);
+          return candidate && Is.string(candidate.newText) && Range.is(candidate.insert) && Range.is(candidate.replace);
         }
         InsertReplaceEdit2.is = is;
       })(InsertReplaceEdit || (exports3.InsertReplaceEdit = InsertReplaceEdit = {}));
@@ -4209,7 +4201,7 @@ var require_main2 = __commonJS({
       (function(Hover2) {
         function is(value) {
           var candidate = value;
-          return !!candidate && Is.objectLiteral(candidate) && (MarkupContent.is(candidate.contents) || MarkedString.is(candidate.contents) || Is.typedArray(candidate.contents, MarkedString.is)) && (value.range === void 0 || Range2.is(value.range));
+          return !!candidate && Is.objectLiteral(candidate) && (MarkupContent.is(candidate.contents) || MarkedString.is(candidate.contents) || Is.typedArray(candidate.contents, MarkedString.is)) && (value.range === void 0 || Range.is(value.range));
         }
         Hover2.is = is;
       })(Hover || (exports3.Hover = Hover = {}));
@@ -4330,22 +4322,22 @@ var require_main2 = __commonJS({
         DocumentSymbol2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate && Is.string(candidate.name) && Is.number(candidate.kind) && Range2.is(candidate.range) && Range2.is(candidate.selectionRange) && (candidate.detail === void 0 || Is.string(candidate.detail)) && (candidate.deprecated === void 0 || Is.boolean(candidate.deprecated)) && (candidate.children === void 0 || Array.isArray(candidate.children)) && (candidate.tags === void 0 || Array.isArray(candidate.tags));
+          return candidate && Is.string(candidate.name) && Is.number(candidate.kind) && Range.is(candidate.range) && Range.is(candidate.selectionRange) && (candidate.detail === void 0 || Is.string(candidate.detail)) && (candidate.deprecated === void 0 || Is.boolean(candidate.deprecated)) && (candidate.children === void 0 || Array.isArray(candidate.children)) && (candidate.tags === void 0 || Array.isArray(candidate.tags));
         }
         DocumentSymbol2.is = is;
       })(DocumentSymbol || (exports3.DocumentSymbol = DocumentSymbol = {}));
-      var CodeActionKind2;
-      (function(CodeActionKind3) {
-        CodeActionKind3.Empty = "";
-        CodeActionKind3.QuickFix = "quickfix";
-        CodeActionKind3.Refactor = "refactor";
-        CodeActionKind3.RefactorExtract = "refactor.extract";
-        CodeActionKind3.RefactorInline = "refactor.inline";
-        CodeActionKind3.RefactorRewrite = "refactor.rewrite";
-        CodeActionKind3.Source = "source";
-        CodeActionKind3.SourceOrganizeImports = "source.organizeImports";
-        CodeActionKind3.SourceFixAll = "source.fixAll";
-      })(CodeActionKind2 || (exports3.CodeActionKind = CodeActionKind2 = {}));
+      var CodeActionKind;
+      (function(CodeActionKind2) {
+        CodeActionKind2.Empty = "";
+        CodeActionKind2.QuickFix = "quickfix";
+        CodeActionKind2.Refactor = "refactor";
+        CodeActionKind2.RefactorExtract = "refactor.extract";
+        CodeActionKind2.RefactorInline = "refactor.inline";
+        CodeActionKind2.RefactorRewrite = "refactor.rewrite";
+        CodeActionKind2.Source = "source";
+        CodeActionKind2.SourceOrganizeImports = "source.organizeImports";
+        CodeActionKind2.SourceFixAll = "source.fixAll";
+      })(CodeActionKind || (exports3.CodeActionKind = CodeActionKind = {}));
       var CodeActionTriggerKind;
       (function(CodeActionTriggerKind2) {
         CodeActionTriggerKind2.Invoked = 1;
@@ -4366,12 +4358,12 @@ var require_main2 = __commonJS({
         CodeActionContext2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.defined(candidate) && Is.typedArray(candidate.diagnostics, Diagnostic2.is) && (candidate.only === void 0 || Is.typedArray(candidate.only, Is.string)) && (candidate.triggerKind === void 0 || candidate.triggerKind === CodeActionTriggerKind.Invoked || candidate.triggerKind === CodeActionTriggerKind.Automatic);
+          return Is.defined(candidate) && Is.typedArray(candidate.diagnostics, Diagnostic.is) && (candidate.only === void 0 || Is.typedArray(candidate.only, Is.string)) && (candidate.triggerKind === void 0 || candidate.triggerKind === CodeActionTriggerKind.Invoked || candidate.triggerKind === CodeActionTriggerKind.Automatic);
         }
         CodeActionContext2.is = is;
       })(CodeActionContext || (exports3.CodeActionContext = CodeActionContext = {}));
-      var CodeAction2;
-      (function(CodeAction3) {
+      var CodeAction;
+      (function(CodeAction2) {
         function create(title, kindOrCommandOrEdit, kind) {
           var result = { title };
           var checkKind = true;
@@ -4388,15 +4380,15 @@ var require_main2 = __commonJS({
           }
           return result;
         }
-        CodeAction3.create = create;
+        CodeAction2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate && Is.string(candidate.title) && (candidate.diagnostics === void 0 || Is.typedArray(candidate.diagnostics, Diagnostic2.is)) && (candidate.kind === void 0 || Is.string(candidate.kind)) && (candidate.edit !== void 0 || candidate.command !== void 0) && (candidate.command === void 0 || Command.is(candidate.command)) && (candidate.isPreferred === void 0 || Is.boolean(candidate.isPreferred)) && (candidate.edit === void 0 || WorkspaceEdit.is(candidate.edit));
+          return candidate && Is.string(candidate.title) && (candidate.diagnostics === void 0 || Is.typedArray(candidate.diagnostics, Diagnostic.is)) && (candidate.kind === void 0 || Is.string(candidate.kind)) && (candidate.edit !== void 0 || candidate.command !== void 0) && (candidate.command === void 0 || Command.is(candidate.command)) && (candidate.isPreferred === void 0 || Is.boolean(candidate.isPreferred)) && (candidate.edit === void 0 || WorkspaceEdit.is(candidate.edit));
         }
-        CodeAction3.is = is;
-      })(CodeAction2 || (exports3.CodeAction = CodeAction2 = {}));
-      var CodeLens2;
-      (function(CodeLens3) {
+        CodeAction2.is = is;
+      })(CodeAction || (exports3.CodeAction = CodeAction = {}));
+      var CodeLens;
+      (function(CodeLens2) {
         function create(range, data) {
           var result = { range };
           if (Is.defined(data)) {
@@ -4404,13 +4396,13 @@ var require_main2 = __commonJS({
           }
           return result;
         }
-        CodeLens3.create = create;
+        CodeLens2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.defined(candidate) && Range2.is(candidate.range) && (Is.undefined(candidate.command) || Command.is(candidate.command));
+          return Is.defined(candidate) && Range.is(candidate.range) && (Is.undefined(candidate.command) || Command.is(candidate.command));
         }
-        CodeLens3.is = is;
-      })(CodeLens2 || (exports3.CodeLens = CodeLens2 = {}));
+        CodeLens2.is = is;
+      })(CodeLens || (exports3.CodeLens = CodeLens = {}));
       var FormattingOptions;
       (function(FormattingOptions2) {
         function create(tabSize, insertSpaces) {
@@ -4431,7 +4423,7 @@ var require_main2 = __commonJS({
         DocumentLink2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.defined(candidate) && Range2.is(candidate.range) && (Is.undefined(candidate.target) || Is.string(candidate.target));
+          return Is.defined(candidate) && Range.is(candidate.range) && (Is.undefined(candidate.target) || Is.string(candidate.target));
         }
         DocumentLink2.is = is;
       })(DocumentLink || (exports3.DocumentLink = DocumentLink = {}));
@@ -4443,7 +4435,7 @@ var require_main2 = __commonJS({
         SelectionRange2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.objectLiteral(candidate) && Range2.is(candidate.range) && (candidate.parent === void 0 || SelectionRange2.is(candidate.parent));
+          return Is.objectLiteral(candidate) && Range.is(candidate.range) && (candidate.parent === void 0 || SelectionRange2.is(candidate.parent));
         }
         SelectionRange2.is = is;
       })(SelectionRange || (exports3.SelectionRange = SelectionRange = {}));
@@ -4502,7 +4494,7 @@ var require_main2 = __commonJS({
         InlineValueText2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate !== void 0 && candidate !== null && Range2.is(candidate.range) && Is.string(candidate.text);
+          return candidate !== void 0 && candidate !== null && Range.is(candidate.range) && Is.string(candidate.text);
         }
         InlineValueText2.is = is;
       })(InlineValueText || (exports3.InlineValueText = InlineValueText = {}));
@@ -4514,7 +4506,7 @@ var require_main2 = __commonJS({
         InlineValueVariableLookup2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate !== void 0 && candidate !== null && Range2.is(candidate.range) && Is.boolean(candidate.caseSensitiveLookup) && (Is.string(candidate.variableName) || candidate.variableName === void 0);
+          return candidate !== void 0 && candidate !== null && Range.is(candidate.range) && Is.boolean(candidate.caseSensitiveLookup) && (Is.string(candidate.variableName) || candidate.variableName === void 0);
         }
         InlineValueVariableLookup2.is = is;
       })(InlineValueVariableLookup || (exports3.InlineValueVariableLookup = InlineValueVariableLookup = {}));
@@ -4526,7 +4518,7 @@ var require_main2 = __commonJS({
         InlineValueEvaluatableExpression2.create = create;
         function is(value) {
           var candidate = value;
-          return candidate !== void 0 && candidate !== null && Range2.is(candidate.range) && (Is.string(candidate.expression) || candidate.expression === void 0);
+          return candidate !== void 0 && candidate !== null && Range.is(candidate.range) && (Is.string(candidate.expression) || candidate.expression === void 0);
         }
         InlineValueEvaluatableExpression2.is = is;
       })(InlineValueEvaluatableExpression || (exports3.InlineValueEvaluatableExpression = InlineValueEvaluatableExpression = {}));
@@ -4538,7 +4530,7 @@ var require_main2 = __commonJS({
         InlineValueContext2.create = create;
         function is(value) {
           var candidate = value;
-          return Is.defined(candidate) && Range2.is(value.stoppedLocation);
+          return Is.defined(candidate) && Range.is(value.stoppedLocation);
         }
         InlineValueContext2.is = is;
       })(InlineValueContext || (exports3.InlineValueContext = InlineValueContext = {}));
@@ -4850,9 +4842,9 @@ var require_main2 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/messages.js
+// node_modules/vscode-languageserver-protocol/lib/common/messages.js
 var require_messages2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/messages.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/messages.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ProtocolNotificationType = exports2.ProtocolNotificationType0 = exports2.ProtocolRequestType = exports2.ProtocolRequestType0 = exports2.RegistrationType = exports2.MessageDirection = void 0;
@@ -4896,9 +4888,9 @@ var require_messages2 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/utils/is.js
+// node_modules/vscode-languageserver-protocol/lib/common/utils/is.js
 var require_is3 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/utils/is.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/utils/is.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.objectLiteral = exports2.typedArray = exports2.stringArray = exports2.array = exports2.func = exports2.error = exports2.number = exports2.string = exports2.boolean = void 0;
@@ -4941,9 +4933,9 @@ var require_is3 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.implementation.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.implementation.js
 var require_protocol_implementation = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.implementation.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.implementation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ImplementationRequest = void 0;
@@ -4957,9 +4949,9 @@ var require_protocol_implementation = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.typeDefinition.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.typeDefinition.js
 var require_protocol_typeDefinition = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.typeDefinition.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.typeDefinition.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TypeDefinitionRequest = void 0;
@@ -4973,9 +4965,9 @@ var require_protocol_typeDefinition = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.workspaceFolder.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.workspaceFolder.js
 var require_protocol_workspaceFolder = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.workspaceFolder.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.workspaceFolder.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DidChangeWorkspaceFoldersNotification = exports2.WorkspaceFoldersRequest = void 0;
@@ -4995,9 +4987,9 @@ var require_protocol_workspaceFolder = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.configuration.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.configuration.js
 var require_protocol_configuration = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.configuration.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.configuration.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ConfigurationRequest = void 0;
@@ -5011,9 +5003,9 @@ var require_protocol_configuration = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.colorProvider.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.colorProvider.js
 var require_protocol_colorProvider = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.colorProvider.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.colorProvider.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ColorPresentationRequest = exports2.DocumentColorRequest = void 0;
@@ -5033,9 +5025,9 @@ var require_protocol_colorProvider = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.foldingRange.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.foldingRange.js
 var require_protocol_foldingRange = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.foldingRange.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.foldingRange.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.FoldingRangeRefreshRequest = exports2.FoldingRangeRequest = void 0;
@@ -5055,9 +5047,9 @@ var require_protocol_foldingRange = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.declaration.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.declaration.js
 var require_protocol_declaration = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.declaration.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.declaration.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DeclarationRequest = void 0;
@@ -5071,9 +5063,9 @@ var require_protocol_declaration = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.selectionRange.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.selectionRange.js
 var require_protocol_selectionRange = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.selectionRange.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.selectionRange.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SelectionRangeRequest = void 0;
@@ -5087,9 +5079,9 @@ var require_protocol_selectionRange = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.progress.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.progress.js
 var require_protocol_progress = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.progress.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.progress.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WorkDoneProgressCancelNotification = exports2.WorkDoneProgressCreateRequest = exports2.WorkDoneProgress = void 0;
@@ -5118,9 +5110,9 @@ var require_protocol_progress = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.callHierarchy.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.callHierarchy.js
 var require_protocol_callHierarchy = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.callHierarchy.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.callHierarchy.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.CallHierarchyOutgoingCallsRequest = exports2.CallHierarchyIncomingCallsRequest = exports2.CallHierarchyPrepareRequest = void 0;
@@ -5146,9 +5138,9 @@ var require_protocol_callHierarchy = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.semanticTokens.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.semanticTokens.js
 var require_protocol_semanticTokens = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.semanticTokens.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.semanticTokens.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SemanticTokensRefreshRequest = exports2.SemanticTokensRangeRequest = exports2.SemanticTokensDeltaRequest = exports2.SemanticTokensRequest = exports2.SemanticTokensRegistrationType = exports2.TokenFormat = void 0;
@@ -5192,9 +5184,9 @@ var require_protocol_semanticTokens = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.showDocument.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.showDocument.js
 var require_protocol_showDocument = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.showDocument.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.showDocument.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ShowDocumentRequest = void 0;
@@ -5208,9 +5200,9 @@ var require_protocol_showDocument = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.linkedEditingRange.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.linkedEditingRange.js
 var require_protocol_linkedEditingRange = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.linkedEditingRange.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.linkedEditingRange.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.LinkedEditingRangeRequest = void 0;
@@ -5224,9 +5216,9 @@ var require_protocol_linkedEditingRange = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.fileOperations.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.fileOperations.js
 var require_protocol_fileOperations = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.fileOperations.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.fileOperations.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WillDeleteFilesRequest = exports2.DidDeleteFilesNotification = exports2.DidRenameFilesNotification = exports2.WillRenameFilesRequest = exports2.DidCreateFilesNotification = exports2.WillCreateFilesRequest = exports2.FileOperationPatternKind = void 0;
@@ -5275,9 +5267,9 @@ var require_protocol_fileOperations = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.moniker.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.moniker.js
 var require_protocol_moniker = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.moniker.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.moniker.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.MonikerRequest = exports2.MonikerKind = exports2.UniquenessLevel = void 0;
@@ -5305,9 +5297,9 @@ var require_protocol_moniker = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.typeHierarchy.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.typeHierarchy.js
 var require_protocol_typeHierarchy = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.typeHierarchy.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.typeHierarchy.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TypeHierarchySubtypesRequest = exports2.TypeHierarchySupertypesRequest = exports2.TypeHierarchyPrepareRequest = void 0;
@@ -5333,9 +5325,9 @@ var require_protocol_typeHierarchy = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineValue.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineValue.js
 var require_protocol_inlineValue = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineValue.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineValue.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlineValueRefreshRequest = exports2.InlineValueRequest = void 0;
@@ -5355,9 +5347,9 @@ var require_protocol_inlineValue = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlayHint.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.inlayHint.js
 var require_protocol_inlayHint = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlayHint.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.inlayHint.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlayHintRefreshRequest = exports2.InlayHintResolveRequest = exports2.InlayHintRequest = void 0;
@@ -5383,9 +5375,9 @@ var require_protocol_inlayHint = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.diagnostic.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.diagnostic.js
 var require_protocol_diagnostic = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.diagnostic.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.diagnostic.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DiagnosticRefreshRequest = exports2.WorkspaceDiagnosticRequest = exports2.DocumentDiagnosticRequest = exports2.DocumentDiagnosticReportKind = exports2.DiagnosticServerCancellationData = void 0;
@@ -5428,9 +5420,9 @@ var require_protocol_diagnostic = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.notebook.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.notebook.js
 var require_protocol_notebook = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.notebook.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.notebook.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DidCloseNotebookDocumentNotification = exports2.DidSaveNotebookDocumentNotification = exports2.DidChangeNotebookDocumentNotification = exports2.NotebookCellArrayChange = exports2.DidOpenNotebookDocumentNotification = exports2.NotebookDocumentSyncRegistrationType = exports2.NotebookDocument = exports2.NotebookCell = exports2.ExecutionSummary = exports2.NotebookCellKind = void 0;
@@ -5617,9 +5609,9 @@ var require_protocol_notebook = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineCompletion.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineCompletion.js
 var require_protocol_inlineCompletion = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineCompletion.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.inlineCompletion.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlineCompletionRequest = void 0;
@@ -5633,9 +5625,9 @@ var require_protocol_inlineCompletion = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.js
+// node_modules/vscode-languageserver-protocol/lib/common/protocol.js
 var require_protocol = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/protocol.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/protocol.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WorkspaceSymbolRequest = exports2.CodeActionResolveRequest = exports2.CodeActionRequest = exports2.DocumentSymbolRequest = exports2.DocumentHighlightRequest = exports2.ReferencesRequest = exports2.DefinitionRequest = exports2.SignatureHelpRequest = exports2.SignatureHelpTriggerKind = exports2.HoverRequest = exports2.CompletionResolveRequest = exports2.CompletionRequest = exports2.CompletionTriggerKind = exports2.PublishDiagnosticsNotification = exports2.WatchKind = exports2.RelativePattern = exports2.FileChangeType = exports2.DidChangeWatchedFilesNotification = exports2.WillSaveTextDocumentWaitUntilRequest = exports2.WillSaveTextDocumentNotification = exports2.TextDocumentSaveReason = exports2.DidSaveTextDocumentNotification = exports2.DidCloseTextDocumentNotification = exports2.DidChangeTextDocumentNotification = exports2.TextDocumentContentChangeEvent = exports2.DidOpenTextDocumentNotification = exports2.TextDocumentSyncKind = exports2.TelemetryEventNotification = exports2.LogMessageNotification = exports2.ShowMessageRequest = exports2.ShowMessageNotification = exports2.MessageType = exports2.DidChangeConfigurationNotification = exports2.ExitNotification = exports2.ShutdownRequest = exports2.InitializedNotification = exports2.InitializeErrorCodes = exports2.InitializeRequest = exports2.WorkDoneProgressOptions = exports2.TextDocumentRegistrationOptions = exports2.StaticRegistrationOptions = exports2.PositionEncodingKind = exports2.FailureHandlingKind = exports2.ResourceOperationKind = exports2.UnregistrationRequest = exports2.RegistrationRequest = exports2.DocumentSelector = exports2.NotebookCellTextDocumentFilter = exports2.NotebookDocumentFilter = exports2.TextDocumentFilter = void 0;
@@ -6269,9 +6261,9 @@ var require_protocol = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/connection.js
+// node_modules/vscode-languageserver-protocol/lib/common/connection.js
 var require_connection2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/connection.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/connection.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createProtocolConnection = void 0;
@@ -6286,13 +6278,12 @@ var require_connection2 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/api.js
+// node_modules/vscode-languageserver-protocol/lib/common/api.js
 var require_api2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/common/api.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/common/api.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       var desc = Object.getOwnPropertyDescriptor(m, k);
       if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
         desc = { enumerable: true, get: function() {
@@ -6301,14 +6292,11 @@ var require_api2 = __commonJS({
       }
       Object.defineProperty(o, k2, desc);
     } : function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       o[k2] = m[k];
     });
     var __exportStar = exports2 && exports2.__exportStar || function(m, exports3) {
-      for (var p in m)
-        if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p))
-          __createBinding(exports3, m, p);
+      for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p)) __createBinding(exports3, m, p);
     };
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.LSPErrorCodes = exports2.createProtocolConnection = void 0;
@@ -6332,13 +6320,12 @@ var require_api2 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/node/main.js
+// node_modules/vscode-languageserver-protocol/lib/node/main.js
 var require_main3 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/lib/node/main.js"(exports2) {
+  "node_modules/vscode-languageserver-protocol/lib/node/main.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       var desc = Object.getOwnPropertyDescriptor(m, k);
       if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
         desc = { enumerable: true, get: function() {
@@ -6347,14 +6334,11 @@ var require_main3 = __commonJS({
       }
       Object.defineProperty(o, k2, desc);
     } : function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       o[k2] = m[k];
     });
     var __exportStar = exports2 && exports2.__exportStar || function(m, exports3) {
-      for (var p in m)
-        if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p))
-          __createBinding(exports3, m, p);
+      for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p)) __createBinding(exports3, m, p);
     };
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createProtocolConnection = void 0;
@@ -6368,9 +6352,9 @@ var require_main3 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/utils/uuid.js
+// node_modules/vscode-languageserver/lib/common/utils/uuid.js
 var require_uuid = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/utils/uuid.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/utils/uuid.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.generateUuid = exports2.parse = exports2.isUUID = exports2.v4 = exports2.empty = void 0;
@@ -6459,9 +6443,9 @@ var require_uuid = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/progress.js
+// node_modules/vscode-languageserver/lib/common/progress.js
 var require_progress = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/progress.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/progress.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.attachPartialResult = exports2.ProgressFeature = exports2.attachWorkDone = void 0;
@@ -6617,9 +6601,9 @@ var require_progress = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/configuration.js
+// node_modules/vscode-languageserver/lib/common/configuration.js
 var require_configuration = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/configuration.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/configuration.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ConfigurationFeature = void 0;
@@ -6654,9 +6638,9 @@ var require_configuration = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/workspaceFolder.js
+// node_modules/vscode-languageserver/lib/common/workspaceFolder.js
 var require_workspaceFolder = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/workspaceFolder.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/workspaceFolder.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WorkspaceFoldersFeature = void 0;
@@ -6700,9 +6684,9 @@ var require_workspaceFolder = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/callHierarchy.js
+// node_modules/vscode-languageserver/lib/common/callHierarchy.js
 var require_callHierarchy = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/callHierarchy.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/callHierarchy.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.CallHierarchyFeature = void 0;
@@ -6736,9 +6720,9 @@ var require_callHierarchy = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/semanticTokens.js
+// node_modules/vscode-languageserver/lib/common/semanticTokens.js
 var require_semanticTokens = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/semanticTokens.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/semanticTokens.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SemanticTokensBuilder = exports2.SemanticTokensDiff = exports2.SemanticTokensFeature = void 0;
@@ -6884,9 +6868,9 @@ var require_semanticTokens = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/showDocument.js
+// node_modules/vscode-languageserver/lib/common/showDocument.js
 var require_showDocument = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/showDocument.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/showDocument.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ShowDocumentFeature = void 0;
@@ -6902,9 +6886,9 @@ var require_showDocument = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/fileOperations.js
+// node_modules/vscode-languageserver/lib/common/fileOperations.js
 var require_fileOperations = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/fileOperations.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/fileOperations.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.FileOperationsFeature = void 0;
@@ -6947,9 +6931,9 @@ var require_fileOperations = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/linkedEditingRange.js
+// node_modules/vscode-languageserver/lib/common/linkedEditingRange.js
 var require_linkedEditingRange = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/linkedEditingRange.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/linkedEditingRange.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.LinkedEditingRangeFeature = void 0;
@@ -6967,9 +6951,9 @@ var require_linkedEditingRange = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/typeHierarchy.js
+// node_modules/vscode-languageserver/lib/common/typeHierarchy.js
 var require_typeHierarchy = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/typeHierarchy.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/typeHierarchy.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TypeHierarchyFeature = void 0;
@@ -7003,9 +6987,9 @@ var require_typeHierarchy = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlineValue.js
+// node_modules/vscode-languageserver/lib/common/inlineValue.js
 var require_inlineValue = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlineValue.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/inlineValue.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlineValueFeature = void 0;
@@ -7030,9 +7014,9 @@ var require_inlineValue = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/foldingRange.js
+// node_modules/vscode-languageserver/lib/common/foldingRange.js
 var require_foldingRange = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/foldingRange.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/foldingRange.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.FoldingRangeFeature = void 0;
@@ -7058,9 +7042,9 @@ var require_foldingRange = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlayHint.js
+// node_modules/vscode-languageserver/lib/common/inlayHint.js
 var require_inlayHint = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlayHint.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/inlayHint.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlayHintFeature = void 0;
@@ -7090,9 +7074,9 @@ var require_inlayHint = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/diagnostic.js
+// node_modules/vscode-languageserver/lib/common/diagnostic.js
 var require_diagnostic = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/diagnostic.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/diagnostic.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DiagnosticFeature = void 0;
@@ -7122,9 +7106,9 @@ var require_diagnostic = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/textDocuments.js
+// node_modules/vscode-languageserver/lib/common/textDocuments.js
 var require_textDocuments = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/textDocuments.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/textDocuments.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TextDocuments = void 0;
@@ -7287,9 +7271,9 @@ var require_textDocuments = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/notebook.js
+// node_modules/vscode-languageserver/lib/common/notebook.js
 var require_notebook = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/notebook.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/notebook.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.NotebookDocuments = exports2.NotebookSyncFeature = void 0;
@@ -7546,9 +7530,9 @@ var require_notebook = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/moniker.js
+// node_modules/vscode-languageserver/lib/common/moniker.js
 var require_moniker = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/moniker.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/moniker.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.MonikerFeature = void 0;
@@ -7571,9 +7555,9 @@ var require_moniker = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/server.js
+// node_modules/vscode-languageserver/lib/common/server.js
 var require_server = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/server.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/server.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createConnection = exports2.combineFeatures = exports2.combineNotebooksFeatures = exports2.combineLanguagesFeatures = exports2.combineWorkspaceFeatures = exports2.combineWindowFeatures = exports2.combineClientFeatures = exports2.combineTracerFeatures = exports2.combineTelemetryFeatures = exports2.combineConsoleFeatures = exports2._NotebooksImpl = exports2._LanguagesImpl = exports2.BulkUnregistration = exports2.BulkRegistration = exports2.ErrorMessageTracker = void 0;
@@ -8318,9 +8302,9 @@ var require_server = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/node/files.js
+// node_modules/vscode-languageserver/lib/node/files.js
 var require_files = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/node/files.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/node/files.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.resolveModulePath = exports2.FileSystem = exports2.resolveGlobalYarnPath = exports2.resolveGlobalNodePath = exports2.resolve = exports2.uriToFilePath = void 0;
@@ -8549,17 +8533,17 @@ var require_files = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-protocol/node.js
+// node_modules/vscode-languageserver-protocol/node.js
 var require_node2 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver-protocol/node.js"(exports2, module2) {
+  "node_modules/vscode-languageserver-protocol/node.js"(exports2, module2) {
     "use strict";
     module2.exports = require_main3();
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlineCompletion.proposed.js
+// node_modules/vscode-languageserver/lib/common/inlineCompletion.proposed.js
 var require_inlineCompletion_proposed = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/inlineCompletion.proposed.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/inlineCompletion.proposed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.InlineCompletionFeature = void 0;
@@ -8581,13 +8565,12 @@ var require_inlineCompletion_proposed = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/common/api.js
+// node_modules/vscode-languageserver/lib/common/api.js
 var require_api3 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/common/api.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/common/api.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       var desc = Object.getOwnPropertyDescriptor(m, k);
       if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
         desc = { enumerable: true, get: function() {
@@ -8596,14 +8579,11 @@ var require_api3 = __commonJS({
       }
       Object.defineProperty(o, k2, desc);
     } : function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       o[k2] = m[k];
     });
     var __exportStar = exports2 && exports2.__exportStar || function(m, exports3) {
-      for (var p in m)
-        if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p))
-          __createBinding(exports3, m, p);
+      for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p)) __createBinding(exports3, m, p);
     };
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ProposedFeatures = exports2.NotebookDocuments = exports2.TextDocuments = exports2.SemanticTokensBuilder = void 0;
@@ -8632,13 +8612,12 @@ var require_api3 = __commonJS({
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/lib/node/main.js
+// node_modules/vscode-languageserver/lib/node/main.js
 var require_main4 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/lib/node/main.js"(exports2) {
+  "node_modules/vscode-languageserver/lib/node/main.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       var desc = Object.getOwnPropertyDescriptor(m, k);
       if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
         desc = { enumerable: true, get: function() {
@@ -8647,14 +8626,11 @@ var require_main4 = __commonJS({
       }
       Object.defineProperty(o, k2, desc);
     } : function(o, m, k, k2) {
-      if (k2 === void 0)
-        k2 = k;
+      if (k2 === void 0) k2 = k;
       o[k2] = m[k];
     });
     var __exportStar = exports2 && exports2.__exportStar || function(m, exports3) {
-      for (var p in m)
-        if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p))
-          __createBinding(exports3, m, p);
+      for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports3, p)) __createBinding(exports3, m, p);
     };
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createConnection = exports2.Files = void 0;
@@ -8891,18 +8867,18 @@ ${stack}`);
   }
 });
 
-// ../../livelove-lsp/node_modules/vscode-languageserver/node.js
+// node_modules/vscode-languageserver/node.js
 var require_node3 = __commonJS({
-  "../../livelove-lsp/node_modules/vscode-languageserver/node.js"(exports2, module2) {
+  "node_modules/vscode-languageserver/node.js"(exports2, module2) {
     "use strict";
     module2.exports = require_main4();
   }
 });
 
-// ../../livelove-lsp/src/server.ts
+// src/server.ts
 var import_node = __toESM(require_node3());
 
-// ../../livelove-lsp/node_modules/vscode-languageserver-textdocument/lib/esm/main.js
+// node_modules/vscode-languageserver-textdocument/lib/esm/main.js
 var FullTextDocument = class _FullTextDocument {
   constructor(uri, languageId, version, content) {
     this._uri = uri;
@@ -9126,106 +9102,131 @@ function getWellformedEdit(textEdit) {
   return textEdit;
 }
 
-// ../../livelove-lsp/src/server.ts
+// src/server.ts
 var net = __toESM(require("net"));
 var connection = (0, import_node.createConnection)(import_node.ProposedFeatures.all);
 var documents = new import_node.TextDocuments(TextDocument);
 var makeVariableRegex = (varName) => new RegExp(`\\b${varName}\\b`, "g");
 var regexCache = /* @__PURE__ */ new Map();
 var documentCaches = /* @__PURE__ */ new Map();
-var watchedVariables = /* @__PURE__ */ new Set();
-var currentValues = /* @__PURE__ */ new Map();
+var documentCurrentValues = /* @__PURE__ */ new Map();
 var loveClients = [];
-var currentLineValues = /* @__PURE__ */ new Map();
-function analyzeVariablePositions(text, varName, doc) {
-  const positions = [];
-  let regex = regexCache.get(varName);
-  if (!regex) {
-    regex = makeVariableRegex(varName);
-    regexCache.set(varName, regex);
+var sendRefreshTimeout;
+var sendRefreshAllTimeout;
+var sendAssetRefreshTimeout;
+var FILE_UPDATE_DEBOUNCE_TIME = 10;
+function sendClientFileUpdate(doc) {
+  if (sendRefreshTimeout) {
+    clearTimeout(sendRefreshTimeout);
   }
-  regex.lastIndex = 0;
-  let match;
-  while ((match = regex.exec(text)) !== null) {
-    positions.push(doc.positionAt(match.index + varName.length));
-  }
-  return positions;
+  sendRefreshTimeout = setTimeout(() => {
+    const message = `
+FILE_UPDATE:${doc.uri}
+${doc.getText()}
+---END---
+`;
+    loveClients.forEach((client) => client.write(message));
+  }, FILE_UPDATE_DEBOUNCE_TIME);
 }
-function updateCacheForVariable(doc, varName, force = false, remove = false) {
+function sendClientAllFilesUpdate() {
+  if (sendRefreshAllTimeout) {
+    clearTimeout(sendRefreshAllTimeout);
+  }
+  sendRefreshAllTimeout = setTimeout(() => {
+    documents.all().forEach((doc) => {
+      const message = `
+FILE_UPDATE:${doc.uri}
+${doc.getText()}
+---END---
+`;
+      loveClients.forEach((client) => client.write(message));
+    });
+  }, FILE_UPDATE_DEBOUNCE_TIME);
+}
+function sendClientAssetFileUpdate({ uri, text }) {
+  if (sendAssetRefreshTimeout) {
+    clearTimeout(sendAssetRefreshTimeout);
+  }
+  sendAssetRefreshTimeout = setTimeout(() => {
+    const message = `
+ASSET_FILE_UPDATE:${uri}
+${text}
+---END---
+`;
+    loveClients.forEach((client) => client.write(message));
+  }, FILE_UPDATE_DEBOUNCE_TIME);
+}
+function analyzeMultipleVariablePositions(text, varNames, doc) {
+  const allPositions = /* @__PURE__ */ new Map();
+  const regexes = /* @__PURE__ */ new Map();
+  for (const varName of varNames) {
+    let regex = regexCache.get(varName);
+    if (!regex) {
+      regex = makeVariableRegex(varName);
+      regexCache.set(varName, regex);
+    }
+    regexes.set(varName, regex);
+  }
+  for (const [varName, regex] of regexes) {
+    const positions = [];
+    regex.lastIndex = 0;
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      positions.push(doc.positionAt(match.index + varName.length));
+    }
+    if (positions.length > 0) {
+      allPositions.set(varName, positions);
+    }
+  }
+  return allPositions;
+}
+function updateCacheForVariables(doc, varNames, force = false, remove = false) {
   const cache = documentCaches.get(doc.uri);
-  if (!cache || !cache.dirty && !force)
-    return;
-  const positions = remove ? [] : analyzeVariablePositions(cache.text, varName, doc);
-  if (positions.length > 0) {
-    cache.positions.set(varName, positions);
+  if (!cache || !cache.dirty && !force) return;
+  if (remove) {
+    for (const varName of varNames) {
+      cache.positions.delete(varName);
+    }
   } else {
-    cache.positions.delete(varName);
+    const newPositions = analyzeMultipleVariablePositions(cache.text, varNames, doc);
+    for (const varName of varNames) {
+      const positions = newPositions.get(varName);
+      if (positions) {
+        cache.positions.set(varName, positions);
+      } else {
+        cache.positions.delete(varName);
+      }
+    }
   }
 }
 var initialized = false;
 function refreshInlayHints(uri) {
   if (initialized) {
-    if (uri) {
-      connection.languages.inlayHint.refresh();
-    } else {
-      connection.languages.inlayHint.refresh();
-    }
+    connection.languages.inlayHint.refresh();
   }
 }
 connection.onInitialize((params) => {
   return {
     capabilities: {
       textDocumentSync: import_node.TextDocumentSyncKind.Incremental,
-      inlayHintProvider: true,
-      codeActionProvider: {
-        resolveProvider: true,
-        codeActionKinds: [import_node.CodeActionKind.RefactorRewrite]
-      },
-      diagnosticProvider: {
-        interFileDependencies: false,
-        workspaceDiagnostics: false
-      },
-      codeLensProvider: {
-        resolveProvider: true
-      }
+      inlayHintProvider: true
     }
   };
-});
-connection.onCodeLens((params) => {
-  const cache = documentCaches.get(params.textDocument.uri);
-  if (!cache)
-    return [];
-  const lenses = [];
-  for (const [varName, positions] of cache.positions) {
-    const value = currentValues.get(varName);
-    if (!value || !watchedVariables.has(varName))
-      continue;
-    lenses.push(
-      ...positions.map(
-        (pos) => ({
-          range: { start: { ...pos, character: 0 }, end: { ...pos, character: Number.MAX_VALUE } },
-          command: {
-            title: `${value}`,
-            command: ""
-            // Empty command means it's just display text
-          }
-        })
-      )
-    );
-  }
-  return lenses;
 });
 connection.onInitialized(() => {
   initialized = true;
   connection.onRequest("textDocument/inlayHint", (params) => {
-    const cache = documentCaches.get(params.textDocument.uri);
-    if (!cache)
-      return [];
+    const uri = params.textDocument.uri;
+    const cache = documentCaches.get(uri);
+    if (!cache) return [];
+    const currentValues = documentCurrentValues.get(uri);
+    if (!currentValues) return [];
     const hints = [];
     for (const [varName, positions] of cache.positions) {
+      if (!currentValues.has(varName)) {
+        return;
+      }
       const value = currentValues.get(varName);
-      if (!value || !watchedVariables.has(varName))
-        continue;
       hints.push(...positions.map((pos) => ({
         position: pos,
         label: `${value}`,
@@ -9237,122 +9238,23 @@ connection.onInitialized(() => {
     return hints;
   });
 });
-connection.onCodeAction((params) => {
-  const doc = documents.get(params.textDocument.uri);
-  if (!doc)
-    return [];
-  const selectedText = doc.getText(params.range);
-  if (selectedText.trim()) {
-    const isWatched = watchedVariables.has(selectedText);
-    return [{
-      title: isWatched ? `Stop watching "${selectedText}"` : `Watch "${selectedText}"`,
-      kind: import_node.CodeActionKind.RefactorRewrite,
-      data: {
-        type: isWatched ? "unwatch" : "watch",
-        variable: selectedText
-      }
-    }];
-  }
-  return [];
-});
-connection.onCodeActionResolve((action) => {
-  if (action.data) {
-    const { type, variable } = action.data;
-    if (type === "watch") {
-      watchedVariables.add(variable);
-      documents.all().forEach((doc) => {
-        const cache = documentCaches.get(doc.uri);
-        if (cache) {
-          cache.dirty = true;
-          updateCacheForVariable(doc, variable, true);
-        }
-      });
-      loveClients.forEach((client) => {
-        client.write(`
-WATCH
-${variable}
----END---
-`);
-      });
-    } else if (type === "unwatch") {
-      watchedVariables.delete(variable);
-      documents.all().forEach((doc) => {
-        const cache = documentCaches.get(doc.uri);
-        if (cache) {
-          cache.dirty = true;
-          updateCacheForVariable(doc, variable, true, true);
-        }
-      });
-      loveClients.forEach((client) => {
-        client.write(`
-WATCH_STOP
-${variable}
----END---
-`);
-      });
-    }
-    refreshInlayHints();
-    refreshCodeLenses();
-  }
-  return action;
-});
-function refreshCodeLenses(uri) {
-}
-connection.onRequest("textDocument/diagnostic", async (params) => {
-  const diagnostics = updateDiagnostics(params.textDocument.uri);
-  return {
-    kind: "full",
-    items: diagnostics
-  };
-});
-function updateDiagnostics(uri) {
-  const doc = documents.get(uri);
-  if (!doc)
-    return [];
-  const lineValues = currentLineValues.get(uri);
-  if (!lineValues)
-    return [];
-  const diagnostics = [];
-  lineValues.forEach((value, lineNumber) => {
-    const position = doc.positionAt(doc.offsetAt({ line: lineNumber, character: 0 }));
-    const lineText = doc.getText({
-      start: position,
-      end: { ...position, character: Number.MAX_VALUE }
-    });
-    diagnostics.push({
-      severity: import_node.DiagnosticSeverity.Hint,
-      range: {
-        start: position,
-        end: { ...position, character: lineText.length }
-      },
-      message: `\u2665 ${value}`,
-      source: "L\xD6VE"
-    });
-  });
-  connection.sendDiagnostics({ uri, diagnostics });
-  return diagnostics;
-}
 documents.onDidOpen((params) => {
   const doc = params.document;
-  const cache = {
+  const cache = documentCaches.get(doc.uri) || {
     positions: /* @__PURE__ */ new Map(),
     text: doc.getText(),
     dirty: true
   };
   cache.dirty = true;
   documentCaches.set(doc.uri, cache);
-  for (const varName of watchedVariables) {
-    updateCacheForVariable(doc, varName);
+  if (!documentCurrentValues.has(doc.uri)) {
+    documentCurrentValues.set(doc.uri, /* @__PURE__ */ new Map());
   }
-  const message = `
-FILE_UPDATE:${doc.uri}
-${doc.getText()}
----END---
-`;
-  loveClients.forEach((client) => client.write(message));
+  const currentValues = documentCurrentValues.get(doc.uri) ?? /* @__PURE__ */ new Map();
+  updateCacheForVariables(doc, Array.from(currentValues.keys()));
+  sendClientFileUpdate(doc);
   cache.dirty = false;
   refreshInlayHints(doc.uri);
-  refreshCodeLenses(doc.uri);
 });
 documents.onDidChangeContent((params) => {
   const doc = params.document;
@@ -9365,61 +9267,91 @@ documents.onDidChangeContent((params) => {
   cache.text = text;
   cache.dirty = true;
   documentCaches.set(doc.uri, cache);
-  for (const varName of watchedVariables) {
-    updateCacheForVariable(doc, varName);
+  if (!documentCurrentValues.has(doc.uri)) {
+    documentCurrentValues.set(doc.uri, /* @__PURE__ */ new Map());
   }
+  const currentValues = documentCurrentValues.get(doc.uri) ?? /* @__PURE__ */ new Map();
+  updateCacheForVariables(doc, Array.from(currentValues.keys()));
   cache.dirty = false;
+  sendClientFileUpdate(doc);
+  refreshInlayHints(doc.uri);
+});
+connection.onNotification("livelove/viewerState", (state) => {
+  if (loveClients.length === 0) return;
   const message = `
-FILE_UPDATE:${doc.uri}
-${text}
+VIEWER_STATE
+${JSON.stringify(state)}
 ---END---
 `;
   loveClients.forEach((client) => client.write(message));
-  refreshInlayHints(doc.uri);
-  refreshCodeLenses(doc.uri);
+});
+connection.onNotification("livelove/fileUpdated", ({ uri, text }) => {
+  if (loveClients.length === 0) return;
+  sendClientAssetFileUpdate({ uri, text });
 });
 function startLoveServer() {
   const server = net.createServer();
-  server.listen(12345, "127.0.0.1");
+  try {
+    server.listen(12345, "127.0.0.1", () => {
+      connection.console.info("L\xD6VE server listening on port 12345");
+    });
+  } catch (err) {
+    connection.console.error(`Failed to start TCP server: ${err}`);
+  }
   server.on("connection", (socket) => {
     loveClients.push(socket);
-    watchedVariables.forEach((wv) => {
-      socket.write(`
-WATCH
-${wv}
----END---
-`);
-    });
-    documents.all().forEach((doc) => {
-      const message = `
-FILE_UPDATE:${doc.uri}
-${doc.getText()}
----END---
-`;
-      loveClients.forEach((client) => client.write(message));
-    });
+    sendClientAllFilesUpdate();
     let buffer = "";
     socket.on("data", (data) => {
       buffer += data.toString();
       let endIndex;
       while ((endIndex = buffer.indexOf("\n---END---\n")) !== -1) {
         const message = buffer.substring(0, endIndex).trim();
-        console.info(`Message: ${message}`);
         buffer = buffer.substring(endIndex + 10);
-        if (message.startsWith("VAR_UPDATE")) {
+        if (message.startsWith("VARS_UPDATE")) {
           const [_, varData] = message.split("\n");
-          const update = JSON.parse(varData);
-          currentValues.set(update.name, update.value);
-          if (!watchedVariables.has(update.name)) {
-            watchedVariables.add(update.name);
-            documents.all().forEach((doc) => {
-              updateCacheForVariable(doc, update.name, true);
+          const payload = JSON.parse(varData);
+          const { uri, updates } = payload;
+          const doc = documents.all().find((doc2) => doc2.uri === uri);
+          if (doc) {
+            if (!documentCurrentValues.has(doc.uri)) {
+              documentCurrentValues.set(doc.uri, /* @__PURE__ */ new Map());
+            }
+            const currentValues = documentCurrentValues.get(doc.uri) ?? /* @__PURE__ */ new Map();
+            const allVars = /* @__PURE__ */ new Set();
+            updates.forEach(({ variables }) => {
+              Object.entries(variables).forEach(([name, value]) => {
+                currentValues.set(name, value);
+                allVars.add(name);
+              });
             });
+            updateCacheForVariables(doc, Array.from(allVars), true);
+            refreshInlayHints();
           }
         }
+        if (message.startsWith("VIEWER_WINDOW")) {
+          const [_, varData] = message.split("\n");
+          const { enabled, window_size } = JSON.parse(varData);
+          connection.sendNotification("livelove/viewerWindow", {
+            enabled,
+            windowSize: window_size ?? 5
+          });
+          connection.console.info(`Viewer ${enabled ? "enabled" : "disabled"}`);
+        }
+        if (message.startsWith("REPLACE_SELECTION")) {
+          const [_, varData] = message.split("\n");
+          connection.sendNotification("livelove/replaceSelection", {
+            text: varData
+          });
+          connection.console.info(`Replaced selection with: ${varData}`);
+        }
+        if (message.startsWith("EDITOR_COMMAND")) {
+          const [_, varData] = message.split("\n");
+          const { command } = JSON.parse(varData);
+          connection.sendNotification("livelove/editorCommand", { command });
+          connection.console.info(`Sent editor command: ${command}`);
+        }
       }
-      refreshInlayHints();
-      refreshCodeLenses();
     });
     socket.on("close", () => {
       loveClients = loveClients.filter((client) => client !== socket);
@@ -9429,4 +9361,3 @@ ${doc.getText()}
 documents.listen(connection);
 connection.listen();
 startLoveServer();
-
