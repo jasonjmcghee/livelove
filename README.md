@@ -14,7 +14,7 @@ _Note: I also added [a neovim plugin](./livelove-nvim), if you'd prefer neovim o
 
 1. Install the vs code extension. (You can build it yourself, or [download the one I built here](https://github.com/jasonjmcghee/livelove/releases/).) or install the neovim plugin (`cd` into the folder and run `npm run install`).
 2. Add the `.lua` files other than `main.lua` to your project (`color.lua` is optional).
-3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start. Just run the project, and you should see inlay hints. Edit your file and see the changes instantly (glsl shaders work too)!
+3. As soon as you open a file like `main.lua` after installing the extension, it will automatically start the LSP. Then, just run the project / main.lua, and you should see inlay hints in the editor. Edit your file and see the changes instantly (glsl shaders work too)!
 
 ![image](https://github.com/user-attachments/assets/3553a8ba-2bc7-4140-bf1f-1178079a70f2)
 
