@@ -162,6 +162,10 @@ connection.onInitialize((params: InitializeParams): InitializeResult => {
 
 connection.onInitialized(() => {
     initialized = true;
+
+    // Track max label length per variable
+    const maxLabelLengths = new Map<string, number>();
+
     connection.onRequest('textDocument/inlayHint', (params) => {
         const uri = params.textDocument.uri;
         const cache = documentCaches.get(uri);
@@ -171,23 +175,31 @@ connection.onInitialized(() => {
         if (!currentValues) return [];
 
         const hints: InlayHint[] = [];
-        
+
         for (const [varName, positions] of cache.positions) {
-            if (!currentValues.has(varName)) { return; }
-            const value = currentValues.get(varName);
+            if (!currentValues.has(varName)) continue;
+
+            const value = currentValues.get(varName) ?? "";
+            const strValue = `${value}`;
+            const currentLength = strValue.length;
+
+            const maxLength = Math.max(maxLabelLengths.get(varName) ?? 0, currentLength);
+            maxLabelLengths.set(varName, maxLength);
+
+            const paddedLabel = strValue.padStart(maxLength, ' ');
 
             hints.push(...positions.map(pos => ({
                 position: pos,
-                label: `${value}`,
-                // position: { ...pos, character: Number.MAX_VALUE },
-                // label: `${varName} = ${value}`,
-                paddingLeft: true
+                label: paddedLabel,
+                paddingLeft: true,
             })));
         }
 
         return hints;
     });
 });
+
+
 
 documents.onDidOpen((params) => {
     const doc = params.document;
