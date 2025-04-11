@@ -1,0 +1,10 @@
+{
+  "name": "livelove-zed",
+  "version": "0.0.1",
+  "description": "Zed plugin for live LOVE2D coding",
+  "repository": "https://github.com/jasonjmcghee/livelove",
+  "author": "Jason McGhee",
+  "scripts": {
+    "build-server": "cd ../livelove-lsp && node build-server.js && cd - && cp ../livelove-lsp/bundled/server.js . && echo 'Updated server.js!'"
+  }
+}

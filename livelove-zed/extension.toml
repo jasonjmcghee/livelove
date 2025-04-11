@@ -1,0 +1,13 @@
+id = "livelove"
+name = "LiveLOVE"
+description = "Live variable watching and inlay hints for LÖVE development with real-time value updates."
+version = "0.1.0"
+schema_version = 1
+authors = ["Jason McGhee <mcghee.j@gmail.com>"]
+include = ["server.js"]
+
+[language_servers.livelove-language-server]
+name = "LiveLOVE Language Server"
+language = "Lua"
+language_ids = { "Lua" = "lua" }
+code_action_kinds = ["", "refactor.rewrite"]
