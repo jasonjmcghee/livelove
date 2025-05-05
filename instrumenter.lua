@@ -215,6 +215,11 @@ local function create_instrumenter()
                         add_assignment()
                     end
                     pos = pos + 1
+                elseif c == '\n' then
+                    current_line = current_line + 1
+                    line_start = pos + 1
+                    table.insert(line_starts, pos + 1)
+                    pos = pos + 1
                 else
                     -- Check for assignment if we're not currently tracking one
                     if not current_assignment then
