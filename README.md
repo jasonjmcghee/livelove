@@ -1,6 +1,6 @@
 # livelove
 
-_Please feel free to file any issues you have._
+_Please feel free to file any issues you have. Note this does not have [LÖVE 2D definitions](https://github.com/LuaCATS/love2d), but you can get some there._
 
 A LÖVE 2D [VSCode extension](./livelove-lsp) in the form of an LSP server, and a few files to add to your project to enable live coding, and live feedback.
 
@@ -56,3 +56,4 @@ function love.draw()
     livelove.postdraw()
 end
 ```
+
