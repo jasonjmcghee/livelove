@@ -162,6 +162,10 @@ connection.onInitialize((params: InitializeParams): InitializeResult => {
 
 connection.onInitialized(() => {
     initialized = true;
+
+    // Track max left/right lengths per variable
+    const maxLeftRightLengths = new Map<string, { left: number, right: number }>();
+
     connection.onRequest('textDocument/inlayHint', (params) => {
         const uri = params.textDocument.uri;
         const cache = documentCaches.get(uri);
@@ -171,23 +175,43 @@ connection.onInitialized(() => {
         if (!currentValues) return [];
 
         const hints: InlayHint[] = [];
-        
+
         for (const [varName, positions] of cache.positions) {
-            if (!currentValues.has(varName)) { return; }
             const value = currentValues.get(varName);
+            if (value === undefined) continue;
+
+            const strValue = `${value}`;
+            const [leftPart, rightPart = ""] = strValue.split('.');
+
+            // Determine current left/right lengths
+            const currentLeft = leftPart.length;
+            const currentRight = rightPart.length;
+
+            // Update max lengths seen for this variable
+            const existing = maxLeftRightLengths.get(varName) ?? { left: 0, right: 0 };
+            const maxLeft = Math.max(existing.left, currentLeft);
+            const maxRight = Math.max(existing.right, currentRight);
+            maxLeftRightLengths.set(varName, { left: maxLeft, right: maxRight });
+
+            // Pad left and right to align decimal point
+            const paddedLeft = leftPart.padStart(maxLeft, ' ');
+            const paddedRight = rightPart.padEnd(maxRight, ' ');
+
+            const alignedLabel = paddedRight.length > 0
+                ? `${paddedLeft}.${paddedRight}`
+                : paddedLeft;
 
             hints.push(...positions.map(pos => ({
                 position: pos,
-                label: `${value}`,
-                // position: { ...pos, character: Number.MAX_VALUE },
-                // label: `${varName} = ${value}`,
-                paddingLeft: true
+                label: alignedLabel,
+                paddingLeft: true,
             })));
         }
 
         return hints;
     });
 });
+
 
 documents.onDidOpen((params) => {
     const doc = params.document;
